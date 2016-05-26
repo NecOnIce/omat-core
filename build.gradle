@@ -23,4 +23,6 @@ publishing {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-firefox-driver', version: '2.53.0'
+    // http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-htmlunit-driver
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-htmlunit-driver', version: '2.52.0'
 }
